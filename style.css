@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Helveltica, sans-serif;
+	font-size: 18px;
+}
+
+/* ----------------NAVBAR--------------- */
+
+#navprincipal{
+	background-color: #f0f1f2;
+	font-family: HP Simplified, sans-serif;
+	height: 100px;
+	width: auto;
+}
+#logonav{
+	width: 30%;
+	height: 30%;
+}
+#botoesnav{
+	text-align: right;
+}
+.nav-item a:link, a:visited{
+	color: #f0f1f2;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 40px;
+	border-radius: 1px;
+
+}
+.nav-item a:hover{
+	color: #000;
+	background-color: #d9d9d9;
+	text-shadow: 1px 1px 1px;
+	border-radius: 2px;
+	padding: 40px;
+}
+.dropdown-menu a:link, a:visited{
+	color: #3C3C3C;
+}
+#MarcarConsulta{
+	background-color: #5ac240;
+	border-radius: 5px;
+	height: 15px;
+	width: 160px;
+}
+#MarcarConsulta a:hover{
+	background-color: #5ac240;
+	border-radius: 2px;
+	height: 110px;
+	width: 160px;
+}
+table{
+	width: 1800px;
+}
+/* ----------------TEXTOS--------------- */
+h1{
+	font-height: 25%;
+	font-weight: 25%;
+	font-family: UltraCondensedSansSerif, sans-serif; 
+	text-align: center;
+}
+h6{
+	text-align: center;
+}
+/* ----------------OUTROS--------------- */
+
+/* ----------------FOOTER--------------- */
+
+#footerOA{
+	margin-top: 1000px;
+	font-family: Helveltica, sans-serif;
+	text-align: center;
+	background-color: #000;
+	color: #FFF;
+	height: 30px;
+	width: 100%;
+}
